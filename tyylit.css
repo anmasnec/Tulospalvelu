@@ -1,0 +1,74 @@
+
+#myForm {
+	 width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#joukkueet {
+	 width: 40%;
+}
+
+#joukkueet #inputNimi {
+	text-align: left;
+	display: flex;
+	position:relative;
+	float:right;
+	width:40%;
+}
+
+
+
+#input2, #input4, #input8{
+	display:flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+#joukkueet input {
+	 display:flex;
+    flex-direction: row;
+    text-align: right;
+
+}
+
+#jäsenet {
+	 width: 40%;
+	 display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+#jäsenet input {
+	 width: 40%;
+	 display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+	float:right;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+
+
+#radiospan {
+	 display:flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+#radiospan input {
+	float:right;
+}
+
+#checkboxspan {
+	 display:flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+#checkboxspan input {
+	float:right;
+}
